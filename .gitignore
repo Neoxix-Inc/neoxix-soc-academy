@@ -1,0 +1,69 @@
+﻿# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+~$*
+
+# Secrets and environment files
+.env
+.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+*.cer
+
+# Credentials and tokens
+credentials/
+secrets/
+tokens/
+api-keys/
+
+# Sensitive network captures
+*-production.pcap
+*-production.pcapng
+*-prod.pcap
+*-prod.pcapng
+captures/private/
+captures/production/
+
+# Large generated files
+*.zip
+*.7z
+*.rar
+*.iso
+*.ova
+*.ovf
+*.vmdk
+*.qcow2
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PowerShell temporary data
+*.clixml
+
+# Generated reports and exports
+exports/
+output/
+temp/
+
+# Nested working repository (not a submodule, not versioned here)
+/neoxix-sdk/

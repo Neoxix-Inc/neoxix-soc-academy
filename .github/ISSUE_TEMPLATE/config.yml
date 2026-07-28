@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation du dépôt
+    url: https://github.com/Neoxix-Inc/neoxix-soc-academy/blob/main/docs/README.md
+    about: Consulter l'index de documentation avant d'ouvrir une issue.

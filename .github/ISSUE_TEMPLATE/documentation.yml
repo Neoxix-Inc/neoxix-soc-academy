@@ -1,0 +1,27 @@
+name: Documentation
+description: Signaler une lacune ou proposer une amélioration de la documentation
+title: "[Docs] "
+labels:
+  - documentation
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Fichier ou section concerné(e)
+      placeholder: ex. README.md, docs/CONTRIBUTION-WORKFLOW.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problème constaté
+      description: Contenu manquant, incohérent, obsolète, lien brisé, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Amélioration proposée
+      description: Optionnel — proposer une reformulation ou un ajout.
+    validations:
+      required: false

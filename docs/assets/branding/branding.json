@@ -1,0 +1,27 @@
+{
+  "$schema": "https://neoxix.ca/schemas/branding.schema.json",
+  "organization": {
+    "name": "Neoxix Inc.",
+    "github": "Neoxix-Inc",
+    "website": "https://neoxix.ca",
+    "tagline": {
+      "fr": "Solutions réseau, cybersécurité et automatisation",
+      "en": "Networking, Cybersecurity and Automation Solutions"
+    }
+  },
+  "branding": {
+    "version": "1.0.0",
+    "theme": "neoxix",
+    "defaultLanguage": "fr-CA",
+    "supportedLanguages": [
+      "fr-CA",
+      "en-US"
+    ]
+  },
+  "repository": {
+    "name": "Neoxix SOC Academy",
+    "shortName": "soc-academy",
+    "type": "technical-portfolio",
+    "visibility": "public"
+  }
+}

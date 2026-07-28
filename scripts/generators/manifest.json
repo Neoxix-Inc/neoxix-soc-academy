@@ -1,0 +1,30 @@
+{
+  "$schema": "https://neoxix.ca/schemas/sdk-manifest.schema.json",
+
+  "sdk": {
+    "name": "Neoxix SDK",
+    "version": "1.0.0",
+    "description": "Internal automation toolkit for all Neoxix-Inc repositories.",
+    "author": "Neoxix Inc.",
+    "license": "MIT"
+  },
+
+  "organization": {
+    "name": "Neoxix Inc.",
+    "github": "Neoxix-Inc"
+  },
+
+  "branding": {
+    "config": "docs/assets/branding/branding.json",
+    "tokens": "docs/assets/branding/tokens.json",
+    "template": "docs/assets/branding/README-TEMPLATE.md"
+  },
+
+  "components": {
+    "hero": "docs/assets/branding/components/hero.md"
+  },
+
+  "generators": {
+    "readme": "scripts/generators/Generate-README.ps1"
+  }
+}

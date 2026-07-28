@@ -1,0 +1,35 @@
+name: Bug
+description: Signaler une erreur technique (script, lien, structure)
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description du problème
+      description: Que se passe-t-il ? Quel est le comportement attendu ?
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Emplacement concerné
+      description: Chemin du fichier ou du dossier concerné
+      placeholder: ex. scripts/Initialize-NeoxixSocAcademy.ps1
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Étapes de reproduction
+      description: Comment reproduire le problème (commande exécutée, contexte).
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sortie / erreur observée
+      description: Copier le message d'erreur ou la sortie pertinente. Ne jamais coller de secret ou d'identifiant réel.
+    validations:
+      required: false

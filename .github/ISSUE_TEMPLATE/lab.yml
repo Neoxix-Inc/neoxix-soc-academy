@@ -1,0 +1,46 @@
+name: Laboratoire
+description: Proposer, suivre ou signaler un problème sur un laboratoire
+title: "[Lab] "
+labels:
+  - lab
+body:
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domaine
+      options:
+        - 00-Environment
+        - 01-Wireshark
+        - 02-Wazuh
+        - 03-Splunk
+        - 04-CrowdStrike
+        - 05-Incident-Response
+        - 06-Threat-Hunting
+        - 07-Final-Projects
+        - 08-Portfolio
+        - 09-CCNA
+        - 10-Fortinet-NSE4
+    validations:
+      required: true
+  - type: input
+    id: lab-name
+    attributes:
+      label: Nom du laboratoire
+      description: "Ex. LAB-02-ARP-and-ICMP-Analysis"
+      placeholder: LAB-NN-Nom-Descriptif
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objectif
+      description: Que doit démontrer ou couvrir ce laboratoire ?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes complémentaires
+      description: Contexte, blocages, dépendances vis-à-vis d'un autre domaine ou laboratoire.
+    validations:
+      required: false
