@@ -1,3 +1,21 @@
+<!-- BEGIN NEOXIX REPOSITORY PRESENTATION -->
+<p align="center">
+  <img src="README-banner.svg" alt="NEOXIX SOC Academy — Observer les signaux. Comprendre les incidents. Progresser." width="1200" />
+</p>
+
+<p align="center"><strong>Parcours pratique et documentation de laboratoires en cybersécurité défensive.</strong></p>
+
+<p align="center">
+<img alt="NEOXIX: public" src="https://img.shields.io/static/v1?label=NEOXIX&amp;message=public&amp;color=36504B&amp;style=flat-square" />
+<img alt="Status: In development" src="https://img.shields.io/static/v1?label=Status&amp;message=In%20development&amp;color=8C5200&amp;style=flat-square" />
+<img alt="Focus: Blue Team" src="https://img.shields.io/static/v1?label=Focus&amp;message=Blue%20Team&amp;color=0B5C57&amp;style=flat-square" />
+</p>
+
+<p align="center"><a href="01-Wireshark">Wireshark</a> · <a href="02-Wazuh">Wazuh</a> · <a href="ROADMAP.md">Feuille de route</a></p>
+<!-- END NEOXIX REPOSITORY PRESENTATION -->
+
+---
+
 <div align="center">
 
 # 🛡️ Neoxix SOC Academy
